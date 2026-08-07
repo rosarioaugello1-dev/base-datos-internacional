@@ -1,0 +1,21 @@
+name: Actualizar series diarias
+
+on:
+  schedule:
+    - cron: "0 12 * * 1-5"   # 9 AM Argentina, dias habiles
+  workflow_dispatch:         # boton para correrlo a mano
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pandas openpyxl requests
+      - run: python motor.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: maestro
+          path: salidas/
