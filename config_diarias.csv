@@ -1,0 +1,11 @@
+serie_id,hoja_destino,nombre_en_excel,proveedor,codigo_serie,url_api,frecuencia,prioridad,notas
+UST_1Y,Treasury Yields,1 year,FRED_CSV,DGS1,,D,1,Tesoro EEUU 1 año - reemplaza Investing.com
+UST_5Y,Treasury Yields,5 years,FRED_CSV,DGS5,,D,1,Tesoro EEUU 5 años
+UST_10Y,Treasury Yields,10 years,FRED_CSV,DGS10,,D,1,Tesoro EEUU 10 años
+UST_30Y,Treasury Yields,30 years,FRED_CSV,DGS30,,D,1,Tesoro EEUU 30 años
+VIX,Mercados,VIX,FRED_CSV,VIXCLS,,D,1,CBOE VIX - cierre diario
+DOLLAR_INDEX,Mercados,Dollar Index,FRED_CSV,DTWEXBGS,,D,1,OJO: indice amplio de la Fed - NO es el DXY de ICE
+BRENT,Commodities,Petroleo Brent,FRED_CSV,DCOILBRENTEU,,D,1,Brent USD/barril
+FX_BRL,Tipos de cambio,Brasil,FRED_CSV,DEXBZUS,,D,1,Reales por dolar
+FX_MXN,Tipos de cambio,Mexico,FRED_CSV,DEXMXUS,,D,1,Pesos por dolar
+FX_JPY,Tipos de cambio,Japon,FRED_CSV,DEXJPUS,,D,1,Yenes por dolar
