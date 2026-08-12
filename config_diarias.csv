@@ -1,20 +1,20 @@
-serie_id,hoja_destino,nombre_en_excel,proveedor,codigo_serie,url_api,frecuencia,prioridad,notas
-UST_1Y,Treasury Yields,1 year,FRED_CSV,DGS1,,D,1,Tesoro EEUU 1 aÃ±o - reemplaza Investing.com
-UST_5Y,Treasury Yields,5 years,FRED_CSV,DGS5,,D,1,Tesoro EEUU 5 aÃ±os
-UST_10Y,Treasury Yields,10 years,FRED_CSV,DGS10,,D,1,Tesoro EEUU 10 aÃ±os
-UST_30Y,Treasury Yields,30 years,FRED_CSV,DGS30,,D,1,Tesoro EEUU 30 aÃ±os
+ï»¿serie_id,hoja_destino,nombre_en_excel,proveedor,codigo_serie,url_api,frecuencia,prioridad,notas
+UST_1Y,Treasury Yields,1 year,FRED_CSV,DGS1,,D,1,Tesoro EEUU 1 aâˆšÂ±o - reemplaza Investing.com
+UST_5Y,Treasury Yields,5 years,FRED_CSV,DGS5,,D,1,Tesoro EEUU 5 aâˆšÂ±os
+UST_10Y,Treasury Yields,10 years,FRED_CSV,DGS10,,D,1,Tesoro EEUU 10 aâˆšÂ±os
+UST_30Y,Treasury Yields,30 years,FRED_CSV,DGS30,,D,1,Tesoro EEUU 30 aâˆšÂ±os
 VIX,Mercados,VIX,FRED_CSV,VIXCLS,,D,1,CBOE VIX - cierre diario
 DOLLAR_INDEX,Mercados,Dollar Index,FRED_CSV,DTWEXBGS,,D,1,OJO: indice amplio de la Fed - NO es el DXY de ICE
 BRENT,Commodities,Petroleo Brent,FRED_CSV,DCOILBRENTEU,,D,1,Brent USD/barril
 FX_BRL,Tipos de cambio,Brasil,FRED_CSV,DEXBZUS,,D,1,Reales por dolar
 FX_MXN,Tipos de cambio,Mexico,FRED_CSV,DEXMXUS,,D,1,Pesos por dolar
 FX_JPY,Tipos de cambio,Japon,FRED_CSV,DEXJPUS,,D,1,Yenes por dolar
-WTI,Commodities,,FRED_CSV,DCOILWTICO,,D,,Petr—leo WTI
-GAS_NATURAL,Commodities,,FRED_CSV,DHHNGSP,,D,,Gas natural Henry Hub
-UST_3M,Treasury Yields,,FRED_CSV,DGS3MO,,D,,
-UST_2Y,Treasury Yields,,FRED_CSV,DGS2,,D,,
-UST_20Y,Treasury Yields,,FRED_CSV,DGS20,,D,,
-FX_EUR,V’nculos,,FRED_CSV,DEXUSEU,,D,,D—lares por euro
-FX_GBP,V’nculos,,FRED_CSV,DEXUSUK,,D,,D—lares por libra
-FX_CNY,V’nculos,,FRED_CSV,DEXCHUS,,D,,Yuanes por d—lar
-FX_CAD,V’nculos,,FRED_CSV,DEXCAUS,,D,,D—lares canadienses
+WTI,Commodities,WTI,FRED_CSV,DCOILWTICO,,D,1,PetrÃ³leo WTI
+GAS_NATURAL,Commodities,Gas Natural,FRED_CSV,DHHNGSP,,D,1,Gas natural Henry Hub
+UST_3M,Treasury Yields,3 months,FRED_CSV,DGS3MO,,D,1,
+UST_2Y,Treasury Yields,2 years,FRED_CSV,DGS2,,D,1,
+UST_20Y,Treasury Yields,20 years,FRED_CSV,DGS20,,D,1,
+FX_EUR,Vinculos,Euro,FRED_CSV,DEXUSEU,,D,1,Dolares por euro
+FX_GBP,Vinculos,Libra,FRED_CSV,DEXUSUK,,D,1,Dolares por libra
+FX_CNY,Vinculos,China,FRED_CSV,DEXCHUS,,D,1,Yuanes por dolar
+FX_CAD,Vinculos,Canada,FRED_CSV,DEXCAUS,,D,1,Dolares canadienses
