@@ -9,3 +9,12 @@ BRENT,Commodities,Petroleo Brent,FRED_CSV,DCOILBRENTEU,,D,1,Brent USD/barril
 FX_BRL,Tipos de cambio,Brasil,FRED_CSV,DEXBZUS,,D,1,Reales por dolar
 FX_MXN,Tipos de cambio,Mexico,FRED_CSV,DEXMXUS,,D,1,Pesos por dolar
 FX_JPY,Tipos de cambio,Japon,FRED_CSV,DEXJPUS,,D,1,Yenes por dolar
+WTI,Commodities,,FRED_CSV,DCOILWTICO,,D,,Petr様eo WTI
+GAS_NATURAL,Commodities,,FRED_CSV,DHHNGSP,,D,,Gas natural Henry Hub
+UST_3M,Treasury Yields,,FRED_CSV,DGS3MO,,D,,
+UST_2Y,Treasury Yields,,FRED_CSV,DGS2,,D,,
+UST_20Y,Treasury Yields,,FRED_CSV,DGS20,,D,,
+FX_EUR,V地culos,,FRED_CSV,DEXUSEU,,D,,D様ares por euro
+FX_GBP,V地culos,,FRED_CSV,DEXUSUK,,D,,D様ares por libra
+FX_CNY,V地culos,,FRED_CSV,DEXCHUS,,D,,Yuanes por d様ar
+FX_CAD,V地culos,,FRED_CSV,DEXCAUS,,D,,D様ares canadienses
