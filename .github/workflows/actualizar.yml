@@ -5,6 +5,9 @@ on:
     - cron: "0 12 * * 1-5"   # 9 AM Argentina, dias habiles
   workflow_dispatch:         # boton para correrlo a mano
 
+permissions:
+  contents: write
+
 jobs:
   actualizar:
     runs-on: ubuntu-latest
@@ -19,3 +22,10 @@ jobs:
         with:
           name: maestro
           path: salidas/
+      - name: Guardar el maestro en el repo
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add -f salidas/MAESTRO.xlsx
+          git commit -m "Actualizacion automatica" || echo "sin cambios"
+          git push
